@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 document.addEventListener('DOMContentLoaded', function () {
   const menuBtn = document.getElementById('menu-btn');
@@ -30,3 +31,19 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+=======
+
+document.addEventListener('DOMContentLoaded', function () {
+  const menuBtn = document.getElementById('menu-btn');
+  const mobileMenu = document.getElementById('mobile-menu');
+  const closeMenu = document.getElementById('close-menu');
+
+  menuBtn.addEventListener('click', () => {
+    mobileMenu.classList.remove('hidden');
+  });
+
+  closeMenu.addEventListener('click', () => {
+    mobileMenu.classList.add('hidden');
+  });
+});
+>>>>>>> 370d04a328761fb1d0936eef3afc1b95a88adfca
